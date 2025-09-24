@@ -1,10 +1,9 @@
 import geopandas as gpd
 import pandas as pd
 
-
 # Cargar shapefile de nivel 2 (municipios)
 
-shapefile_path = "gadm41_COL_2.shp"
+shapefile_path = "datos_entrada/gadm41_COL_2.shp"
 gdf = gpd.read_file(shapefile_path, engine="fiona")
 
 # -----------------------------
