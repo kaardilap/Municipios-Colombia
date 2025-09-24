@@ -4,7 +4,7 @@ Este repositorio contiene datos geoespaciales de los municipios de Colombia a ni
 ## Contenido
 
 - `municipios_col.py` - Script principal que procesa el shapefile y genera el TSV.
-- `gadm41_COL_2.shp` - Shapefile original de municipios 
+- `datos_entrada/gadm41_COL_2.shp` - Shapefile original de municipios 
 - `municipios_colombia_level2.tsv` - Archivo resultante con la información de municipios.
 - `README.md` - Este archivo de documentación.
 
@@ -15,12 +15,7 @@ Este repositorio contiene datos geoespaciales de los municipios de Colombia a ni
   - geopandas
   - pandas
   - fiona
-## Descarga de datos
-El shapefile de municipios de Colombia a nivel 2 no está incluido por su tamaño.  
-Descárgalo desde el sitio oficial de GADM: [GADM -> Colombia](https://gadm.org/download_country_v3.html)  
-Dar click en "Shapefile" y se descargará un archivo comprimido llamado gadm41_COL_shp. En este se encuentran  todos los archivos del shapefile (`.shp`, `.dbf`, `.shx`, `.prj`, `.cpg`)
 
-Por favor coloca todos los archivos del shapefile (`.shp`, `.dbf`, `.shx`, `.prj`, `.cpg`) que correspondan al nivel 2 (todos los que terminen en _2) en la misma carpeta que `municipios_col.py`.
 Instalación de paquetes:
 
 ```bash
@@ -61,5 +56,8 @@ num_poligonos - Número de polígonos del municipio
 
 centroide_lon - Longitud del centroide
 
-
 centroide_lat - Latitud del centroide
+
+##Visualización
+
+Se recomienda ejecutar Excel y desde allí abrir el archivo para una visaulización más clara y amigable de la información.
