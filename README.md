@@ -32,9 +32,9 @@ cd municipios_col
 ```
 python municipios_col.py
 ```
-3. El archivo municipios_colombia_level2.tsv se generará en la mimsma carpeta.
+3. El archivo municipios_colombia_level2.tsv se generará en la misma carpeta.
 
-## Contenido de los archivos generados
+## Contenido del archivo generado
 
 municipios_colombia_level2.tsv contiene:
 
@@ -61,5 +61,6 @@ centroide_lat - Latitud del centroide
 ## Visualización
 
 Se recomienda ejecutar Excel y desde allí abrir el archivo generado `municipios_colombia_level2.tsv` para una visaulización más clara y amigable de la información.
+
 
 
