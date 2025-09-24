@@ -1,4 +1,4 @@
-#Municipios de Colombia - Nivel 2
+# Municipios de Colombia - Nivel 2
 Este repositorio contiene datos geoespaciales de los municipios de Colombia a nivel 2, junto con un script para procesarlos y generar un archivo TSV con información relevante.
 
 ## Contenido
@@ -58,6 +58,7 @@ centroide_lon - Longitud del centroide
 
 centroide_lat - Latitud del centroide
 
-##Visualización
+## Visualización
 
 Se recomienda ejecutar Excel y desde allí abrir el archivo para una visaulización más clara y amigable de la información.
+
