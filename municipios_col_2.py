@@ -33,6 +33,7 @@ def contar_poligonos(geom):
 
 gdf['num_poligonos'] = gdf['geometry'].apply(contar_poligonos)
 
+gdf['geometry'] = gdf['geometry'].geom_type
 
 # Crear código abreviado tipo ISO para el municipio
 # -----------------------------
