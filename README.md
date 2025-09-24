@@ -60,5 +60,6 @@ centroide_lat - Latitud del centroide
 
 ## Visualización
 
-Se recomienda ejecutar Excel y desde allí abrir el archivo para una visaulización más clara y amigable de la información.
+Se recomienda ejecutar Excel y desde allí abrir el archivo generado `municipios_colombia_level2.tsv` para una visaulización más clara y amigable de la información.
+
 
