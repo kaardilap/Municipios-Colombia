@@ -3,7 +3,7 @@ Este repositorio contiene datos geoespaciales de los municipios de Colombia a ni
 
 ## Contenido
 
-- `municipios_col.py` - Script principal que procesa el shapefile y genera el TSV.
+- `municipios_col_2.py` - Script principal que procesa el shapefile y genera el TSV.
 - `datos_entrada/gadm41_COL_2.shp` - Shapefile original de municipios 
 - `municipios_colombia_level2.tsv` - Archivo resultante con la información de municipios.
 - `README.md` - Este archivo de documentación.
@@ -61,6 +61,7 @@ centroide_lat - Latitud del centroide
 ## Visualización
 
 Se recomienda ejecutar Excel y desde allí abrir el archivo generado `municipios_colombia_level2.tsv` para una visaulización más clara y amigable de la información.
+
 
 
 
